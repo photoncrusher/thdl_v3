@@ -16,10 +16,10 @@
 
 ## TỔNG KẾT CÁC PROBLEM CẦN FIX NGAY:
 ### Quan trọng:
-- Crawl ngay 1 bản mẫu (đầy đủ) của iphone, ipad và applewatch để data matching.
-- Dữ liệu quá ít, cần crawl trên shopee, lazada ngay Ipad và Iphone (crawl 2 trường name và price, sau đó yield convert(data) và nó sẽ match vào csdl 1 cách magic).
-- <strike> fix file macbook.json định dạng ko đúng do crawl đổ vào nhiều lần (chuyển \]\[ thành dấu ,) => chính là cái lỗi gây ra cho run.sh nè </strike>
-- Ông @QuangPhuc kiểm tra lại cái crawler xem, khá nhiều sản phẩm ở 1 trang của ông bị thiếu trường name ! (cái này thiếu name thì match ko nổi).
-- chuyển các trường nan về thành string 'unknow' trước khi đẩy vào elastic search
-- Ông Quân check ngay cho ae cái kibana nhé. Tôi sẽ không đụng đến phần đấy đâu. file csv của ông là data.csv
-- Làm cái công thức khác về data matching.
+- [ ] Crawl ngay 1 bản mẫu (đầy đủ) của iphone, ipad và applewatch để data matching.
+- [ ] Dữ liệu quá ít, cần crawl trên shopee, lazada ngay Ipad và Iphone (crawl 2 trường name và price, sau đó yield convert(data) và nó sẽ match vào csdl 1 cách magic).
+- [x] <strike> fix file macbook.json định dạng ko đúng do crawl đổ vào nhiều lần (chuyển \]\[ thành dấu ,) => chính là cái lỗi gây ra cho run.sh nè </strike>
+- [ ] Ông @QuangPhuc kiểm tra lại cái crawler xem, khá nhiều sản phẩm ở 1 trang của ông bị thiếu trường name ! (cái này thiếu name thì match ko nổi).
+- [ ] chuyển các trường nan về thành string 'unknow' trước khi đẩy vào elastic search
+- [ ] Ông Quân check ngay cho ae cái kibana nhé. Tôi sẽ không đụng đến phần đấy đâu. file csv của ông là data.csv
+- [ ] Làm cái công thức khác về data matching.
