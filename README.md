@@ -12,7 +12,7 @@
 ## CÁCH CHẠY
 - Kiểm tra, đổi đường dẫn trong các file  py
 - .\run_crawler.sh và nó sẽ tự crawl, chuyển đổi và đẩy dữ liệu lên elastic search (EZ)
-- Tuy nhiên hiện tại nếu chạy run_crawler.sh thì sẽ chỉ crawl data về và đưa vào macbook.json(file tổng đã qua string nhưng chưa qua data matching) => cần fix ngay (sẽ nói rõ ở dưới)
+- <strike>Tuy nhiên hiện tại nếu chạy run_crawler.sh thì sẽ chỉ crawl data về và đưa vào macbook.json(file tổng đã qua string nhưng chưa qua data matching) => cần fix ngay (sẽ nói rõ ở dưới)</strike>
 
 ## TỔNG KẾT CÁC PROBLEM CẦN FIX NGAY:
 ### Quan trọng:
