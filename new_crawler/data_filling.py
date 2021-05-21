@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 
-data = pd.read_csv("E:\Working place\PROJECT 20202\AAATEST\\new_crawler\\new_crawler\macbook1.csv")
+data = pd.read_csv("E:\Working place\PROJECT 20202\AAATEST\\new_crawler\\new_crawler\product.csv")
 schema = pd.read_csv("E:\Working place\PROJECT 20202\AAATEST\\new_crawler\\new_crawler\\t1a.csv")
 
 def jaccard_similarity(a, b):
@@ -37,7 +37,7 @@ for i in range(0,864):
     if simil_name >thresh_hold:
       for cols in n_f:
         if isNaN(data[cols][i]):
-          print(1)
+          print('filling data. ok!')
           data[cols][i] = schema[cols][j]
         continue
 
